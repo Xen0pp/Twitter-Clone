@@ -1,113 +1,102 @@
-🐦 Twitter (X) Clone
+<img src="Screenshot From 2025-09-05 01-15-42.png" style="height:64px;margin-right:32px"/>
 
-A fully responsive Twitter (now X) clone built with HTML5 and Tailwind CSS, replicating the look and feel of the Twitter web app interface.
 
-This project was created as a hands-on exercise to strengthen frontend skills while learning modern utility-first styling with Tailwind. It focuses purely on the UI layer — showcasing layouts, components, and styling without backend functionality.
+```markdown
+# Twitter Clone 🐦
 
-📸 Screenshot
+A modern Twitter (X) clone crafted with **HTML5** and **Tailwind CSS v4** — delivering a responsive, clean, and familiar experience inspired by the real platform. Designed to showcase elegant layouts, practical utility CSS, and solid front-end structure.
 
-Here’s how the app looks:Screenshot From 2025-09-05 01-15-42.png
+---
 
-✨ Features
+![Project Interface Screenshot](./Screenshot%20From%202025-09-05%2001-15-42.png)
 
-🔹 Responsive Layout: Works across desktop and mobile screens with a grid-based, flexible design.
+---
 
-🔹 Twitter-like Sidebar Navigation: Includes all primary links (Home, Explore, Notifications, Messages, Lists, Bookmarks, Communities, Premium, Profile, More).
+## 🚀 Features
 
-🔹 Post Creation UI: Input box with icons for media, GIFs, polls, emojis, calendar, and location.
+- **Sidebar Menu:** Icon-based, collapsible navigation for all major X features.
+- **Sticky Tabs & Top Bar:** Seamless switching between "For You" and "Following".
+- **Tweet Composer:** User profile preview and post input bar.
+- **Post Feed:** Mocked timeline with avatars, posts, likes, retweets, replies, and image attachments.
+- **Trending Module:** Accurate clone of Twitter’s “What’s Happening” sidebar.
+- **Who To Follow:** Profile suggestions styled just like the original UI.
+- **Modern Dark Mode:** Visually crisp, easy on the eyes, with careful accenting.
+- **Mobile to Desktop Responsive:** Works fluidly on all screen sizes.
 
-🔹 Feed Section: Styled sample posts with user profile, content, images, and interactive icons (like, retweet, comment, analytics).
+---
 
-🔹 Right Panel Widgets: “What’s Happening” trending section, “Who to Follow” suggestions, and Terms/Privacy links.
+## 🛠 Tech Stack
 
-🔹 Sticky Headers/Sections: Smooth scrolling with fixed top navigation and right-panel cards.
+- **HTML5:** Semantic & accessible markup
+- **Tailwind CSS v4:** Utility-first, customizable, and future-ready CSS
+- **Google Material Symbols:** Modern, consistent iconography
 
-🔹 Dark Theme: Styled with Tailwind utility classes for a black/gray modern UI.
+---
 
-🔹 Scalable Component Structure: Built with reusable Tailwind classes that can be extended into a real application with React, Vue, or backend integration.
+## 📁 Directory Structure
 
-🛠️ Tech Stack
+```
 
-HTML5 – Semantic structure of the app.
-
-Tailwind CSS – Utility-first CSS for rapid styling.
-
-Google Fonts (Material Symbols) – For icons and UI consistency.
-
-📂 Project Structure
-├── index.html              # Main HTML structure
+.
 ├── css/
-│   └── output.css          # Tailwind-generated CSS
-├── Screenshot From 2025-09-05 01-15-42.png   # Preview screenshot
-└── README.md               # Project documentation
+│   └── output.css                   \# Generated Tailwind CSS
+├── src/
+│   └── input.css                    \# Main CSS file with @tailwind directives
+├── index.html
+├── Screenshot From 2025-09-05 01-15-42.png
+├── tailwind.config.js
+├── package.json
+└── README.md
 
-🚀 Getting Started
+```
 
-Follow these steps to run the project locally:
+---
 
-1️⃣ Clone the repository
-git clone https://github.com/your-username/twitter-clone.git
-cd twitter-clone
+## 🖥️ Getting Started
 
-2️⃣ Install dependencies
+1. **Clone the Repository**
+```
 
-Ensure you have Node.js and Tailwind CLI installed.
-Initialize Tailwind if needed:
+git clone https://github.com/Xen0pp/Twitter-Clone.git
+cd Twitter-Clone
 
-npm install -D tailwindcss
-npx tailwindcss init
+```
 
-3️⃣ Build Tailwind CSS
+2. **Install Dependencies**
+```
 
-Run Tailwind in watch mode to generate output.css:
+npm install
 
-npx tailwindcss -i ./input.css -o ./css/output.css --watch
+```
 
-4️⃣ Open in browser
+3. **Build Tailwind CSS**
+```
 
-Simply open index.html in your browser to view the project.
+npx tailwindcss -i ./src/input.css -o ./css/output.css --watch
 
-📖 Learning Outcomes
+```
 
-By building this project, I practiced:
+4. **View**
+- Open `index.html` directly in your browser.
 
-Responsive UI design with Tailwind CSS
+---
 
-Layout building using Flexbox & Grid utilities
+## 💡 Customization
 
-Managing dark UI themes with proper contrast
+- Edit `tailwind.config.js` for theme tweaks (colors, breakpoints, etc).
+- Add or modify sections in `src/input.css` to extend your styling.
+- Plug in backend logic or interactive scripts to make it fully dynamic.
 
-Creating reusable UI patterns (posts, sidebars, trending widgets)
+---
 
-Preparing project documentation and showcasing work on GitHub
+## 🤝 Contributing
 
-🔮 Future Improvements
+- Found a UI bug or want to add new features?
+- Pull requests and new ideas are welcome!
+- Start a discussion or submit an issue to collaborate.
 
-Some potential upgrades to turn this static clone into a functional app:
+---
 
-🔗 Convert to React + Tailwind for dynamic components.
+> Built with curiosity, code, and a serious love for scalable, beautiful UIs.
+```
 
-🗄️ Add Firebase / Supabase backend for auth, posts, likes, and comments.
-
-🌍 Implement real-time updates with WebSockets.
-
-🎨 Add light/dark mode toggle.
-
-📱 Progressive Web App (PWA) support.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork this repo and open a PR with improvements.
-
-📜 License
-
-This project is licensed under the MIT License – free to use and modify.
-
-👨‍💻 Author
-
-Mohit Kr. Biswas
-
-🌐 GitHub: Xen0pp
-
-🐦 Twitter: @Xen0pp
