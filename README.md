@@ -1,14 +1,10 @@
-<img src="Screenshot From 2025-09-05 01-15-42.png" style="height:64px;margin-right:32px"/>
+<img src="Twitter-Clone.png" style="height:64px;margin-right:32px"/>
 
 
 ```markdown
 # Twitter Clone 🐦
 
 A modern Twitter (X) clone crafted with **HTML5** and **Tailwind CSS v4** — delivering a responsive, clean, and familiar experience inspired by the real platform. Designed to showcase elegant layouts, practical utility CSS, and solid front-end structure.
-
----
-
-![Project Interface Screenshot](./Screenshot%20From%202025-09-05%2001-15-42.png)
 
 ---
 
